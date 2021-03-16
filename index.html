@@ -16,7 +16,58 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Hello</h1>
+    <section class="coming-soon-section">
+      <div class="coming-soon-section__logo">
+        <img src="./images/logo.svg" alt="" />
+      </div>
+      <div class="coming-soon-section__container">
+        <div class="coming-soon-section__left">
+          <img
+            src="./images/hero-mobile.jpg"
+            class="coming-soon-section__mobile__img"
+          />
+          <img
+            src="./images/hero-desktop.jpg"
+            class="coming-soon-section__desktop__img"
+          />
+        </div>
+
+        <div class="coming-soon-section__right">
+          <h4 class="coming-soon-section__title">
+            <span>We're</span><br />coming<br />soon
+          </h4>
+
+          <p class="coming-soon-section__description">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+
+          <form action="" class="coming-soon-section__form">
+            <div class="coming-soon-section__control">
+              <input
+                type="text"
+                class="coming-soon-section__input"
+                placeholder="Email Address"
+              />
+
+              <button class="coming-soon-section__submit">
+                <img src="./images/icon-arrow.svg" />
+              </button>
+            </div>
+            <span class="coming-soon-section__form-error-text"
+              >Please provide a valid email</span
+            >
+            <img
+              src="./images/icon-error.svg"
+              class="coming-soon-section__form-error-icon"
+              alt=""
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
     <script src="./js/script.js"></script>
   </body>
 </html>
