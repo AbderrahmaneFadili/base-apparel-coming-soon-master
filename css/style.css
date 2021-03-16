@@ -1,0 +1,14 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root{
+    --font-family:'Josefin Sans', sans-serif;
+    --font-size:16px;
+    --desaturated-red:#ce9797;
+    --soft-red:#f96262;
+    --dark-grayish-red:#413a3a;
+    --linear-gradient-1-from:hsl(0, 0%, 100%);
+    --linear-gradient-1-to:hsl(0, 100%, 98%);
+    --linear-gradient-2-from:hsl(0, 80%, 86%);
+    --linear-gradient-2-to:hsl(0, 74%, 74%);
+}
