@@ -161,6 +161,11 @@ form.coming-soon__form input.error {
   visibility: hidden;
 }
 
+.error-text.error,
+.error-icon.error {
+  visibility: visible;
+}
+
 /* Media Queries for Mobiles */
 @media screen and (max-width: 430px) {
   form.coming-soon__form input {
